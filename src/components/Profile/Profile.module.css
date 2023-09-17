@@ -28,7 +28,7 @@
 
 .tag {
   margin-bottom: 20px;
-  color: grey;
+  color: rgb(94, 83, 83);
   font-size: 25px;
 }
 
@@ -39,8 +39,7 @@
 
 .stats {
   display: flex;
-
-  border-top: 1px solid lightgray;
+  padding-inline-start: 0;
 }
 
 .stats li {
