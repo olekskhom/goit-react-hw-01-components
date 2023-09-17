@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
 import clsx from 'clsx';
+
 export default function FriendItem({ name, avatar, isOnline }) {
   return (
     <li className={css.item}>
