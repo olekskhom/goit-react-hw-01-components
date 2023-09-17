@@ -18,6 +18,7 @@ export default function Profile({ avatar, username, tag, location, stats }) {
   );
 }
 
+
 Profile.propTypes = {
   avatar: PropTypes.string.isRequired,
   username: PropTypes.string.isRequired,
